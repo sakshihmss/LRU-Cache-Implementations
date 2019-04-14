@@ -56,6 +56,7 @@ class lru{
 			page_accessed[min_ele_index] = true;
 		    }
 		}
+		update_page_counter();
 	    }
 
 	    int getCountOfFaults(){
